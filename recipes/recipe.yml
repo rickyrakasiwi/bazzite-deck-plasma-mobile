@@ -3,34 +3,34 @@
 # image will be published to ghcr.io/<user>/<name>
 name: bazzite-deck-plasma-mobile
 # description will be included in the image's metadata
-description: This is my personal OS image.
+description: A modification of the bazzite-deck image to include plasma mobile. Because it's basically a tablet anyway
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 42 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/bazzite-deck
+image-version: stable
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
+  # - type: files
+  #   files:
+  #     - source: system
+  #       destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
-  - type: dnf
-    repos:
-      copr:
-        - atim/starship
-    install:
-      packages:
-        - micro
-        - starship
+  # - type: dnf
+  #   repos:
+  #     copr:
+  #       - atim/starship
+  #   install:
+  #     packages:
+  #       - micro
+  #       - starship
     remove:
       packages:
-        # example: removing firefox (in favor of the flatpak)
-        # "firefox" is the main package, "firefox-langpacks" is a dependency
-        - firefox
-        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+        - plasma-desktop
+    install:
+      packages:
+        - plasma-mobile
 
   - type: default-flatpaks
     configurations:
