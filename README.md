@@ -1,5 +1,10 @@
 # bazzite-deck-plasma-mobile &nbsp; [![bluebuild build badge](https://github.com/randomrooster/bazzite-deck-plasma-mobile/actions/workflows/build.yml/badge.svg)](https://github.com/randomrooster/bazzite-deck-plasma-mobile/actions/workflows/build.yml)
 
+This is a fork of the bazzite-deck image from the Bazzite OS project, attempting to add the KDE Plasma Mobile shell to it, because the Steam Deck is basically a tablet with a controller glued to it. I'm testing this live on GitHub because I am too lazy to learn how to do it on private infra. If you didn't get the hint, at time of writing I don't know if this image works.  
+Below follows the original README.
+
+---
+
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
 After setup, it is recommended you update this README to describe your custom image.
